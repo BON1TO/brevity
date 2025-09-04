@@ -1,0 +1,27 @@
+# ---- Python backend (brevityb) ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.db
+*.sqlite3
+*.egg-info/
+dist/
+build/
+.env
+
+# ---- Node frontend (brevityf) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+brevityf/dist/
+
+# ---- Editor/OS ----
+.vscode/
+.idea/
+.DS_Store
+*.swp
